@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2021 Sony Corporation
+-->
+<!-- This is a feature flag to enable legacy customization -->
+<permissions>
+    <feature name="com.sonymobile.customization.legacy" />
+</permissions>

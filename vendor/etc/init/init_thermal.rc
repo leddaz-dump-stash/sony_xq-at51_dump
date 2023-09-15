@@ -1,0 +1,10 @@
+#! /bin/sh
+service init_thermal /vendor/bin/sh /vendor/bin/init_thermal.sh
+ class main
+ user root
+ group root
+ disabled
+ oneshot
+
+on property:sys.boot_completed=1
+    start  init_thermal
