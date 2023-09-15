@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (C) 2019 Sony Mobile Communications Inc.
+    All rights, including trade secret rights, reserved.
+-->
+<permissions>
+    <privapp-permissions package="com.sonymobile.xperiasystemserver">
+        <permission name="android.permission.MODIFY_PHONE_STATE"/>
+        <permission name="android.permission.SEND_DEVICE_CUSTOMIZATION_READY"/>
+    </privapp-permissions>
+</permissions>

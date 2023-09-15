@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Copyright (C) 2020 Sony Mobile Communications Inc.
+  All rights, including trade secret rights, reserved.
+-->
+
+<config>
+    <component-override package="com.google.android.documentsui" >
+        <component class="com.android.documentsui.LauncherActivity" enabled="false" />
+        <component class="com.android.documentsui.ViewDownloadsActivity" enabled="false" />
+    </component-override>
+</config>

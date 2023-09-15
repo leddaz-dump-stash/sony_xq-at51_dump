@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!---
+#*********************************************************************
+#* Copyright (c) 2019 Sony Mobile Communications Inc.                *
+#* All rights, including trade secret rights, reserved.              *
+#*********************************************************************
+-->
+
+<!--
+This XML file declares which signature|privileged permissions should be granted to the privileged
+application VoiceActivation.
+-->
+
+<permissions>
+    <privapp-permissions package="jp.co.fsi.fs1seg">
+        <permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+    </privapp-permissions>
+</permissions>

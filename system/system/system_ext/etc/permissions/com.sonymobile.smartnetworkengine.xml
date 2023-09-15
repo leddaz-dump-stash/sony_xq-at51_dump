@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+   Copyright (C) 2020 Sony Mobile Communications Inc.
+   All rights, including trade secret rights, reserved.
+-->
+
+<permissions>
+    <privapp-permissions package="com.sonymobile.smartnetworkengine">
+        <permission name="android.permission.WIFI_UPDATE_USABILITY_STATS_SCORE" />
+    </privapp-permissions>
+</permissions>

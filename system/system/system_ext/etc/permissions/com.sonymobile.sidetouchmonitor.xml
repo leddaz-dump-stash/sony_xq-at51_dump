@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2021 Sony Corporation
+-->
+<permissions>
+    <library name="com.sonymobile.sidetouchmonitor.api_1"
+        file="/system_ext/framework/com.sonymobile.sidetouchmonitor_impl.jar"/>
+</permissions>

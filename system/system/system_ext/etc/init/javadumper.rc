@@ -1,0 +1,21 @@
+on post-fs-data
+    # Allow javadumper to access dropbox!
+    mkdir /data/system/dropbox 0750 system system
+    chmod 0750 /data/system/dropbox
+    # Create directory to store logs
+    mkdir /data/system/log 0770 root system
+    chown root system /data/system/log
+    chmod 0770 /data/system/log
+    # create jd_dropboxfiles from rc file
+    mkdir /data/system/log/jd_dropboxfiles 0770 system root
+    chown system root /data/system/log/jd_dropboxfiles
+    chmod 770 /data/system/log/jd_dropboxfiles
+    mkdir /data/system/log/jd_dropboxfiles/digest 0770 system root
+    chown system root /data/system/log/jd_dropboxfiles/digest
+
+# Javadumper
+service javadumper /system_ext/bin/javadumper
+    class main
+    user system
+    group root system radio media_rw oem_2999
+    seclabel u:r:javadumper:s0

@@ -1,0 +1,20 @@
+# Fullseg
+service dtvserver /system/bin/dtvserver
+    class main
+    group sdcard_rw sdcard_r media_rw
+    disabled
+
+# This dtvserver is a digital TV model only.
+
+on post-fs-data && property:ro.odm.build.SomcCntrl.device=pdx203_docomo
+    #Fullseg data foldor
+    mkdir /data/dtv 0700 system system
+    restorecon_recursive /data/dtv
+    start dtvserver
+
+on post-fs-data && property:ro.odm.build.SomcCntrl.device=pdx203_kddi
+    #Fullseg data foldor
+    mkdir /data/dtv 0700 system system
+    restorecon_recursive /data/dtv
+    start dtvserver
+

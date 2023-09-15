@@ -1,0 +1,10 @@
+#
+# Copyright 2021 Sony Corporation
+#
+
+# product specific configuration
+#
+on early-boot && property:persist.sys.apn.data_removal=1
+    # Delete apns-conf.xml
+    rm /data/misc/apns/apns-conf.xml
+    setprop persist.sys.apn.data_removal 0

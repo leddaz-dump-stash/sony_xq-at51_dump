@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<permissions>
+    <privapp-permissions package="com.google.android.permissioncontroller">
+        <permission name="android.permission.GET_ACCOUNTS_PRIVILEGED" />
+        <permission name="android.permission.GET_RUNTIME_PERMISSION_GROUP_MAPPING" />
+    </privapp-permissions>
+</permissions>
