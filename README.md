@@ -1,0 +1,14 @@
+# qssi-user 12 58.2.A.7.93 058002A007009304241360111 release-keys
+- manufacturer: sony
+- platform: kona
+- codename: XQ-AT51
+- flavor: qssi-user
+- release: 12
+- id: 58.2.A.7.93
+- incremental: 058002A007009304241360111
+- tags: release-keys
+- fingerprint: Sony/XQ-AT51_EEA/XQ-AT51:12/58.2.A.7.93/058002A007009304241360111:user/release-keys
+- is_ab: true
+- brand: Sony
+- branch: qssi-user-12-58.2.A.7.93-058002A007009304241360111-release-keys
+- repo: sony_xq-at51_dump
