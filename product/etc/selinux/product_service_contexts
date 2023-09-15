@@ -1,0 +1,27 @@
+#line 1 "device/somc/sepolicy/private/service_contexts"
+# Application Framework
+# Automatic Brightness Control
+power_extention                           u:object_r:power_extention_service:s0
+
+# Add somcdebug
+somcdebug                                 u:object_r:somcdebug_service:s0
+
+# Native IDD service
+idds u:object_r:idd_service:s0
+
+mirror_power_save                         u:object_r:lcd_power_save_service:s0
+
+# SOMC Wi-Fi Display
+wfd_wifi_scan                             u:object_r:wfd_wifi_scan_service:s0
+
+# SOMC Telephony Extension Service
+ext_telephony_service_impl                u:object_r:ext_telephony_service_server:s0
+
+# SuperStamina
+xperia_power_service                      u:object_r:xperia_power_service:s0
+
+# Add DTV
+dtv.server                                u:object_r:dtvserver_service:s0
+dtvbml.server                             u:object_r:dtvserver_service:s0
+sd.service                                u:object_r:dtvserver_service:s0
+dtv.mgr                                   u:object_r:dtvserver_service:s0

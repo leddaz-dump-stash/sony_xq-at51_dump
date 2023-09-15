@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright 2021 Sony Corporation
+-->
+<permissions>
+    <library name="com.sonymobile.wfdwifiscan"
+        file="/product/framework/com.sonymobile.wfdwifiscan.jar"/>
+</permissions>
